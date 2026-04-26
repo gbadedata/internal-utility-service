@@ -34,9 +34,9 @@ def test_index_returns_200(client):
 
 
 def test_index_returns_html(client):
-    """Test root endpoint returns HTML content."""
+    """Test root endpoint returns JSON content."""
     response = client.get('/')
-    assert b'<' in response.data
+    assert b'message' in response.data
 
 
 def test_invalid_route_returns_404(client):
