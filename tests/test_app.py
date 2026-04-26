@@ -16,7 +16,7 @@ def client():
 def test_health_endpoint(client):
     """Test the /health endpoint returns 200."""
     response = client.get('/health')
-    assert response.status_code == 999  # intentional failure for demo
+    assert response.status_code == 200  # intentional failure for demo
 
 
 def test_health_response_contains_status(client):
