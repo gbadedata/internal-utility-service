@@ -2,4 +2,4 @@ flask
 gunicorn
 pytest
 flake8
-boto3Flask==2.2.5
+boto3
