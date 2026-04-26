@@ -1,4 +1,4 @@
-# Internal Utility Service — Production Deployment
+# Internal Utility Service - Production Deployment
 
 [![CI/CD Pipeline](https://github.com/gbadedata/internal-utility-service/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/gbadedata/internal-utility-service/actions/workflows/ci-cd.yml)
 
